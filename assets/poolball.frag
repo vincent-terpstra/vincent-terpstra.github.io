@@ -1,4 +1,11 @@
-varying vec2 v_xy;
+#ifdef GL_ES
+#define LOWP lowp
+precision mediump float;
+#else
+#define LOWP
+#endif
+
+varying LOWP vec2 v_xy;
 
 uniform sampler2D u_texture;
 uniform mat3 u_mat3; //rotation matrix
