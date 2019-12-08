@@ -5,7 +5,7 @@ precision mediump float;
 #define LOWP
 #endif
 
-varying LOWP vec2 v_xy;
+varying vec2 v_xy;
 
 uniform sampler2D u_texture;
 uniform mat3 u_mat3; //rotation matrix
