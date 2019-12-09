@@ -1,17 +1,20 @@
 
 window.onload = function(){
     //load app one
-    setApp('app one', 'this is app one', 'none');
+    setApp(1);
 }
 
-function setApp(name, desc, path){
-	document.querySelector("#app-title").innerHTML = name;
-	document.querySelector("#app-desc").innerHTML = desc;
+function setApp(index){
+	var appIndex = appData[index];
 
+	document.querySelector("#app-title").innerHTML = appIndex.name;
+	document.querySelector("#app-desc").innerHTML = appIndex.desc;
+	
 
 	var script = document.createElement("script");
 	script.type="text/javascript"
-	script.src = "PathFind/html.nocache.js";
+	var path = appIndex.path + "/html.nocache.js";
+	script.src = path;
 	
 	document.querySelector("#embed-html").innerHTML = "";
 	document.body.appendChild(script);

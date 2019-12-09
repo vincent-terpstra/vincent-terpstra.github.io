@@ -8,10 +8,11 @@
 		<link rel="stylesheet" href="css/normalize.css" />
        		<link rel="stylesheet" href="css/theme.css" />
         	<link rel="stylesheet" href="css/main.css" />
-
-	      <script src="js/loader.js"></script>
-              <script src="soundmanager2-setup.js" id="setup"></script>
-  	      <script src="soundmanager2-jsmin.js" id="jsmin"></script>
+		
+	      	<script src="js/data.js"></script>
+		<script src="js/loader.js"></script>
+              	<script src="soundmanager2-setup.js" id="setup"></script>
+  	      	<script src="soundmanager2-jsmin.js" id="jsmin"></script>
        </head>
        <body>
 	<header>
@@ -24,8 +25,9 @@
 	<nav>
 	<div class="center">
 	<ul>
-		<li><a onclick="setApp('App One', 'this is app one', 'PathFind')">Path Finder</a></li>
-		<li><a onclick="setApp('App Two', 'this is app two', 'none')">App Two</a></li>
+		<li><a onclick="setApp(0)">PoolBall</a></li><li><span>|</span></li>
+		<li><a onclick="setApp(1)">PathFinder</a></li><li><span>|</span></li>
+		<li><a onclick="setApp(2)">Empty</a></li>
 	</ul>
 	</div>
 	</nav>
