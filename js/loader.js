@@ -16,6 +16,7 @@ function setApp(index){
 	var path = appIndex.path + "/html.nocache.js";
 	script.src = path;
 	script.id = "scriptID";
+
 	document.querySelector("#embed-html").innerHTML = "";
 	document.body.appendChild(script);
 
@@ -37,6 +38,9 @@ function setApp(index){
 }
 
 function remove(){
+	var last = document.head.lastChild;
+	document.head.removeChild(last);
+
 	var scr = document.getElementById("scriptID");
 	if(scr != null)
 		document.body.removeChild(scr);
