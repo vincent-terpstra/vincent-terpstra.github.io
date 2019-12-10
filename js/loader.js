@@ -1,7 +1,7 @@
 
 window.onload = function(){
     //load app one
-    setApp(0);
+    setApp(1);
 }
 
 function setApp(index){
