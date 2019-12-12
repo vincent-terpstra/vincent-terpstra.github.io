@@ -9,7 +9,7 @@ var appData = [
 		path:"PathFind",
 		desc:"A * Pathfinding algorithm, on a Quad Tree map",
 	},
-{
+	{
 		name:"PoolGame",
 		path:"PoolGame",
 		desc:"Pool game using libGDX and OpenGL shaders",
