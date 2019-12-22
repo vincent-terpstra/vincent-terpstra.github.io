@@ -15,6 +15,11 @@ var appData = [
 		desc:"Pool game using libGDX and OpenGL shaders",
 	},
 	{
+		name:"Conway's GameOfLife",
+		path:"GameOfLife",
+		desc:"An implementation of cellular automaton using LibGDX and OpenGL shaders",
+	},
+	{
 		name:"",
 		path:"",
 		desc:"",
