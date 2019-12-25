@@ -7,6 +7,7 @@ b:color.frag:288:application/unknown
 i:repeat8.png:95:image/png
 i:repeat3.png:85:image/png
 i:repeat6.png:86:image/png
+i:circle.png:351:image/png
 b:ignore.frag:285:application/unknown
 i:repeat5.png:83:image/png
 b:shader.vert:347:application/unknown

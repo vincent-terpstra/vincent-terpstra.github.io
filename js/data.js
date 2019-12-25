@@ -43,6 +43,7 @@ var appData = [
 		name:"Conway's Game Of Life",
 		path:"GameOfLife",
 		desc:"Cellular Automaton using OpenGL shaders</br>"
+		+ "<b>Click</b> Add pattern</br>"
 		   + "<b>Scroll</b> Change pattern</br>"
 		   + "<b>(+/-)</b> Increase speed</br>"
 		   + "<pre><b>shader.frag</b></br>" +
@@ -79,6 +80,15 @@ var appData = [
 "}"
 		   ,
 	},
+	
+	{
+		name:"Connect Four",
+		path:"ConnectFour",
+		desc:"A game of connect four vs <b>GoldAI</b></br>"
+		+"<b>GoldAI</b> is a backtracking AI</br>"
+		+"<b>Source</b>",
+	},
+	
 	{
 		name:"",
 		path:"",
