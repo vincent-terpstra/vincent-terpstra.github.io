@@ -114,8 +114,9 @@ author:
   email            : "vdterpst@gmail.com"
   github           : "vincent-terpstra"
   linkedin         : "vincent-douglas-terpstra"
+  resume           : "VincentTerpstraResume_2020.pdf"
   links:
-    - label: "Email@"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: mailto:vdterpst@gmail.com
     - label: "Website"
@@ -133,9 +134,6 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-      label: "Resume"
-      icon: "fas fa-fw fa-envelope-square"
-      #url: "VincentTerpstraResume_2020.pdf"
 
 # Site Footer
 footer:
