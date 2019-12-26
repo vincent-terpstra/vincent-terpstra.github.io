@@ -160,6 +160,14 @@
           </a>
         </li>
       {% endif %}
+      
+      {% if author.resume %}
+        <li>
+          <a href="{{ author.resume }}" itemprop="sameAs" rel="nofollow noopener noreferrer" download>
+            <i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Resume
+          </a>
+        </li>
+      {% endif %}
 
       {% if author.lastfm %}
         <li>
