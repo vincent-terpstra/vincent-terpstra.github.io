@@ -112,6 +112,8 @@ author:
   bio              : "Software Dev"
   location         : "Toronto ON."
   email            : "vdterpst@gmail.com"
+  github          : "vincent-terpstra"
+  linkedin        : "vincent-douglas-terpstra"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
