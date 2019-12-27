@@ -27,7 +27,7 @@ void main()
         val3 *= u_mat3;
         if(val3.z < 0.0)
             val3.x *= -1.0;
-
+        
         vec4 clr = texture2D(u_texture, val3.xy * u_uv.z + u_uv.xy);
         gl_FragColor = vec4(clr.rgb * (diffuse * .8 + 0.2)
                        		       + pow(diffuse, 16.0) * 0.8 + .02, 1.0);
