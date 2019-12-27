@@ -4,7 +4,7 @@ permalink: /projects/
 title: "My Projects"
 author_profile: true
 header:
-   image: "images/toronto-waterfront.jpg"
+   image: "/images/toronto-skyline.jpg"
 ---
 
 {% include base_path %}
