@@ -7,6 +7,7 @@ header:
    image: "/images/toronto-skyline.jpg"
 ---
 
+THIS PAGE HAS BEEN UPDATED
 {% include base_path %}
 {% include group-by-array collection=site.posts field="tags" %}
 
