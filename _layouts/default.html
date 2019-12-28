@@ -12,16 +12,6 @@
   <head>
     {% include head.html %}
     {% include head/custom.html %}
-    
-    <style>
-   canvas {
-      overflow: visible !important;
-   }
-   
-   body {
-      background-color: #666666;
-   }
-   </style>
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
