@@ -3,7 +3,7 @@ title : "Conway's Game of Life"
 date: 2019-12-27
 tags: [opengl, pixels]
 excerpt: "Cellular Automaton"
-source: "https://github.com/vincent-terpstra/gameOfLife"
+source: "gameOfLife"
 ---
 
 <script src="soundmanager2-setup.js" id="setup"></script>

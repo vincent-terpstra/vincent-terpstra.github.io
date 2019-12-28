@@ -3,7 +3,7 @@ title : "Connect Four"
 date: 2019-12-27
 tags: [libgdx, Algorithm, AI]
 excerpt: "A Connect Four game and Backtracking AI"
-source:"https://github.com/vincent-terpstra/ConnectFour"
+source:"ConnectFour"
 ---
 
 <script src="soundmanager2-setup.js" id="setup"></script>

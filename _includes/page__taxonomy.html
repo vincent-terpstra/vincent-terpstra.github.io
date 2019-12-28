@@ -1,8 +1,11 @@
-{% if page.source %}
-  <strong><i class="fas fa-fw fa-code" aria-hidden="true"></i> Source: </strong><a href={{ page.source }}>GitHub</a></br>
-{% endif %}
 {% if site.tag_archive.type and page.tags[0] %}
   {% include tag-list.html %}
+{% endif %}
+
+{% if page.source %}
+  <strong><i class="fas fa-fw fa-file-code" aria-hidden="true"></i> Source: </strong><a href="https://github.com/vincent-terpstra/{{ page.source }}"> GitHub/{{page.source}} </a></br>
+{% else %}
+<strong><i class="fas fa-fw fa-file-code" aria-hidden="true"></i> Source: </strong><a href="https://github.com/vincent-terpstra"> GitHub </a></br>
 {% endif %}
 
 {% if site.category_archive.type and page.categories[0] %}
