@@ -2,12 +2,10 @@
   {% include tag-list.html %}
 {% endif %}
 
-{% if page.source %}
-  <strong><i class="fas fa-fw fa-file-code" aria-hidden="true"></i> Source: </strong><a href="https://github.com/vincent-terpstra/{{ page.source }}"> GitHub/{{page.source}} </a></br>
-{% else %}
-<strong><i class="fas fa-fw fa-file-code" aria-hidden="true"></i> Source: </strong><a href="https://github.com/vincent-terpstra"> GitHub </a></br>
-{% endif %}
-
+<strong>
+   <i class="fas fa-fw fa-file-code" aria-hidden="true"></i> Source: 
+</strong>
+<a href="https://github.com/vincent-terpstra/{{ page.source | default '' }}"> GitHub/{{page.source | default: ""}} </a></br>
 {% if site.category_archive.type and page.categories[0] %}
   {% include category-list.html %}
 {% endif %}
