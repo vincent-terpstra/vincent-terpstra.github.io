@@ -3,6 +3,7 @@ title : "Conway's Game of Life"
 date: 2019-12-27
 tags: [opengl, pixels]
 excerpt: "Cellular Automaton"
+source: "https://github.com/vincent-terpstra/gameOfLife"
 ---
 
 <script src="soundmanager2-setup.js" id="setup"></script>
@@ -41,18 +42,18 @@ void main()
   float live = texture2D(u_texture, v_texCoords).r;
 
   float neighbours = 0.0;
+
+ neighbours += texture2D(u_texture, v_texCoords + shift.xy).r;
+ neighbours += texture2D(u_texture, v_texCoords - shift.xy).r;
 	
-  neighbours += texture2D(u_texture, v_texCoords + shift.xy).r;
-  neighbours += texture2D(u_texture, v_texCoords - shift.xy).r;
+ neighbours += texture2D(u_texture, v_texCoords + shift.yx).r;
+ neighbours += texture2D(u_texture, v_texCoords - shift.yx).r;
 	
-  neighbours += texture2D(u_texture, v_texCoords + shift.yx).r;
-  neighbours += texture2D(u_texture, v_texCoords - shift.yx).r;
+ neighbours += texture2D(u_texture, v_texCoords + shift.xx).r;
+ neighbours += texture2D(u_texture, v_texCoords - shift.xx).r;
 	
-  neighbours += texture2D(u_texture, v_texCoords + shift.xx).r;
-  neighbours += texture2D(u_texture, v_texCoords - shift.xx).r;
-	
-  neighbours += texture2D(u_texture, v_texCoords + shift.xz).r;
-  neighbours += texture2D(u_texture, v_texCoords - shift.xz).r;
+ neighbours += texture2D(u_texture, v_texCoords + shift.xz).r;
+ neighbours += texture2D(u_texture, v_texCoords - shift.xz).r;
 
   if((live == 1.0 && (neighbours == 3.0 || neighbours == 2.0)) 
    ||(live == 0.0 && neighbours == 3.0)){
@@ -62,4 +63,3 @@ void main()
    }
 }
 ~~~
-[Source](https://github.com/vincent-terpstra/gameOfLife)

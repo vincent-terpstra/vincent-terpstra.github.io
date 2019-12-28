@@ -3,6 +3,7 @@ title : "A* PathFinder"
 date: 2019-12-27
 tags: [libgdx, Algorithm, AI]
 excerpt: "A* Pathfinder on Hexogonal Grid"
+source: "https://github.com/vincent-terpstra/PathFinding"
 ---
 
 <script src="soundmanager2-setup.js" id="setup"></script>
@@ -27,5 +28,3 @@ excerpt: "A* Pathfinder on Hexogonal Grid"
   document.getElementById('embed-html').addEventListener('mousedown', handleMouseDown, false);
   document.getElementById('embed-html').addEventListener('mouseup', handleMouseUp, false);
 </script>
-
-[Source](https://github.com/vincent-terpstra/PathFinding)
