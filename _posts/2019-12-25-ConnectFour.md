@@ -4,6 +4,7 @@ date: 2019-12-25
 tags: [libgdx, Algorithm, AI]
 excerpt: "A Connect Four game and Backtracking AI"
 source: "ConnectFour"
+icon: "connectfour"
 ---
 
 <script src="soundmanager2-setup.js" id="setup"></script>

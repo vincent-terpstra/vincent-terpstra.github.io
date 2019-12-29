@@ -4,6 +4,7 @@ date: 2019-12-27
 tags: [opengl, pixels]
 excerpt: "Cellular Automaton"
 source: "gameOfLife"
+icon: "alphastar"
 ---
 
 <script src="soundmanager2-setup.js" id="setup"></script>

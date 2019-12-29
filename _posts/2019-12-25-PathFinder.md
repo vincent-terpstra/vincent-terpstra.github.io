@@ -4,6 +4,7 @@ date: 2019-12-25
 tags: [libgdx, Algorithm, AI]
 excerpt: "A* Pathfinder on Hexogonal Grid"
 source: "PathFinding"
+icon:    "alphastar"
 ---
 
 <script src="soundmanager2-setup.js" id="setup"></script>
