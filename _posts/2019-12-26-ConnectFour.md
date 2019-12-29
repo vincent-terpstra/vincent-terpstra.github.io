@@ -1,5 +1,5 @@
 ---
-title : "Connect Four"
+title: "Connect Four"
 date: 2019-12-26
 tags: [libgdx, Algorithm, AI]
 excerpt: "A Connect Four game and Backtracking AI"
