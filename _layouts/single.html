@@ -32,7 +32,9 @@ layout: default
             {{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
           {% endif %}
           {% if page.read_time %}
-            </br><p class="page__meta"><i class="far fa-clock" aria-hidden="true" style="display:inline; "></i> {% include read-time.html %}</p>
+            <p class="page__meta">
+               <i class="far fa-clock" aria-hidden="true" style="display:inline; "></i> {% include read-time.html %}
+            </p>
           {% endif %}
         </header>
       {% endunless %}
