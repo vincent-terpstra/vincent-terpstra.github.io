@@ -10,7 +10,7 @@ source: "PathFinding"
 <script src="soundmanager2-jsmin.js" id="jsmin"></script>
 <div id="embed-html" display="inline-block"></div>
 
-<script type="text/javascript" src="/PathFind/html.nocache.js"></script>
+<script type="text/javascript" src="/PathFinder/html.nocache.js"></script>
 
 <script>
   function handleMouseDown(evt) {
