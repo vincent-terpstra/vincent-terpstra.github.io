@@ -34,8 +34,5 @@ to remember and test each possible board state.
   document.getElementById('embed-html').addEventListener('mouseup', handleMouseUp, false);
 </script>
 
-**(RMB)** - Play <span style="color: red;"> red </span> piece  
-**(RMB && Game Over)** - Reset  
-
-
-
+**(LMB)** Play <span style="color: red;"> red </span> piece  
+**(LMB && Game Over)** Reset board  
