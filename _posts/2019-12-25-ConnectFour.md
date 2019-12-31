@@ -7,7 +7,7 @@ source: "ConnectFour"
 icon: "connectfour"
 ---
 
-<span style="color: gold; "><b> GoldAI </b></style> is a backtracking **algorithm**.
+<span style="color: gold; "><b> GoldAI </b></span> is a backtracking **algorithm**.
 This algorithm uses **recursion** and the stack
 to remember and test each possible board state.
 
@@ -34,7 +34,7 @@ to remember and test each possible board state.
   document.getElementById('embed-html').addEventListener('mouseup', handleMouseUp, false);
 </script>
 
-* **RMB** - Play red piece
+* **RMB** - Play <span style="color: red;"> red </span>red piece
 * **RMB && Game Over** - Reset
 
 
