@@ -7,6 +7,10 @@ source: "ConnectFour"
 icon: "connectfour"
 ---
 
+<span style="color: gold; "><b> GoldAI </b></style> is a backtracking **algorithm**.
+This algorithm uses **recursion** and the stack
+to remember and test each possible board state.
+
 <script src="soundmanager2-setup.js" id="setup"></script>
 <script src="soundmanager2-jsmin.js" id="jsmin"></script>
 <div id="embed-html" display="inline-block"></div>
@@ -30,10 +34,8 @@ icon: "connectfour"
   document.getElementById('embed-html').addEventListener('mouseup', handleMouseUp, false);
 </script>
 
-**(RMB)** Play red piece
-**(RMB && Game Over)** Reset
+* **RMB** - Play red piece
+* **RMB && Game Over** - Reset
 
-**GoldAI** is a backtracking **algorithm**.
-This algorithm uses **recursion** and the stack
-to remember and test each possible board state.
+
 

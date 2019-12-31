@@ -9,9 +9,9 @@ icon: "conway"
 
 **Conway's Game of Life** is a <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" >cellular automation!</a>
 Each new image is generated from the previous with a few simple rules:
-+ Each live cell with two or three live neighbours remains alive
-+ Each dead cell with three live neighbours becomes alive
-+ All other cells become dead
++ Each <span style="color: blue;"> live </style> cell with two or three <span style="color: blue;"> live </style> neighbours remains alive
++ Each <span style="color: red;"> dead </style> cell with three <span style="color: blue;"> live </style> neighbours becomes <span style="color: blue;"> alive </style>
++ All other cells become <span style="color: red;"> dead </style>
 
 <script src="soundmanager2-setup.js" id="setup"></script>
 <script src="soundmanager2-jsmin.js" id="jsmin"></script>
