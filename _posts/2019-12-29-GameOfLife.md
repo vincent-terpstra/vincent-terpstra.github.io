@@ -7,7 +7,7 @@ source: "gameOfLife"
 icon: "conway"
 ---
 
-**Conway's Game of Life** is a <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" >cellular automaton!</a>
+**Conway's Game of Life** is a <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" >cellular automaton</a>!
 Each new image is generated from the previous with a few simple rules:
 + Each <span style="color: green;"> live </span> cell with two or three <span style="color: green;"> live </span> neighbours remains <span style="color: green;"> alive </span>
 + Each <span style="color: red;"> dead </span> cell with three <span style="color: green;"> live </span> neighbours becomes <span style="color: green;"> alive </span>
