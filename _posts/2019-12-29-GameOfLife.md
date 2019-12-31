@@ -29,8 +29,19 @@ icon: "conway"
   document.getElementById('embed-html').addEventListener('mousedown', handleMouseDown, false);
   document.getElementById('embed-html').addEventListener('mouseup', handleMouseUp, false);
 </script>
+<div position="inline-block">
+**(click)** place pattern
+**(scroll)** change pattern
+**(+/-)** change speed (limited by refresh rate)
 
+**Conway's Game of Life** is a <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" >cellular automation!</a>
+Each new image is generated from the previous with a few simple rules:
++ Each live cell with two or three live neighbours remains alive
++ Each dead cell with three live neighbours becomes alive
++ All other cells become dead 
+</div>
 
+###Shader.frag
 ~~~
 varying vec4 v_color;
 varying vec2 v_texCoords;

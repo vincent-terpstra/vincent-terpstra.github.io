@@ -29,3 +29,12 @@ icon: "connectfour"
   document.getElementById('embed-html').addEventListener('mousedown', handleMouseDown, false);
   document.getElementById('embed-html').addEventListener('mouseup', handleMouseUp, false);
 </script>
+
+<div position="inline-block" >
+**(RMB)** Play red piece
+**(RMB && Game Over)** Reset
+
+**GoldAI** is a backtracking algorithm.
+This algorithm uses recursion and the stack
+to remember and test each possible move.
+</div> 
