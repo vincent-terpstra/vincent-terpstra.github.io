@@ -9,7 +9,8 @@ icon: "connectfour"
 
 <span style="color: gold; "><b> GoldAI </b></span> is a backtracking **algorithm**.
 This algorithm uses **recursion** and the stack
-to remember and test each possible board state.
+to remember and test each possible board state.  
+Originally a in-class assignment using JavaFX; this project became a self-taught lesson in AI, backtracking algorithms, path reduction, and heuristics.
 
 <script src="soundmanager2-setup.js" id="setup"></script>
 <script src="soundmanager2-jsmin.js" id="jsmin"></script>
