@@ -1,7 +1,7 @@
 ---
 title : "Web Class final Assignment"
 date: 2018-01-01
-tags: [Javascript, database]
+tags: [Javascript, Express, MongoDB, PostgreSQL]
 excerpt: "A website built using Node.js runtime environment, Express framework, and handlebars templating. Uses mongoDB and PostgreSQL for databases. "
 source: "webFinalProject/blob/master/server.js"
 icon: "connectfour"
