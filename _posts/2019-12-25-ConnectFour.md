@@ -1,7 +1,7 @@
 ---
 title : "Connect Four"
 date: 2019-12-25
-tags: [libgdx, Algorithm, AI]
+tags: [libgdx, Algorithm, AI, Java]
 excerpt: "A Connect Four game and Backtracking AI"
 source: "ConnectFour"
 icon: "connectfour"
