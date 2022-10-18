@@ -1,7 +1,7 @@
 ---
 title : "A* PathFinder"
 date: 2019-12-25
-tags: [libgdx, Algorithm, AI]
+tags: [libgdx, Algorithm, AI, Java]
 excerpt: "A* Pathfinder on Hexogonal Grid"
 source: "PathFinding"
 icon:    "alphastar"
