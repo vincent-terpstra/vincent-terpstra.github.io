@@ -110,11 +110,11 @@ author:
   name             : "Vincent Terpstra"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Software Dev"
-  location         : "Toronto ON."
+  location         : "London ON."
   email            : "vdterpst@gmail.com"
   github           : "vincent-terpstra"
   linkedin         : "vincent-douglas-terpstra"
-  resume           : "VincentTerpstraResume_2022.pdf"
+  resume           : "VincentTerpstraResume_2025.pdf"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
